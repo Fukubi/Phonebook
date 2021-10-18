@@ -2,7 +2,12 @@
 A very simple C project using sqlite3 and autotools to simulate a Phonebook.
 
 ## Build Process
-As any autotools project you just have to run the following commands:
+First use the autoreconf to generate the needed files for the build  
+```
+autoreconf --install
+```
+
+Then build it like any autotools project you just have to run the following commands:
 
 ```
 .\configure
